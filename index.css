@@ -31,7 +31,7 @@ header {
   font-Weight: 700;
   border: 0;
   background-color: #fff;
-    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
 }
 
 .item1 {
@@ -41,12 +41,19 @@ header {
 .sec1 {
   padding: 40px 8vw;
   height: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item1 {
+  padding-right: 30px;
 }
 
 .item1 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   margin-top: 30px;
+
 }
 
 .item1 p {
@@ -103,6 +110,9 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 30px 8vw;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .growing img {
@@ -131,8 +141,21 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 30px 8vw;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
+.community {
+  margin-left: 40%;
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: min-content;
+  margin-bottom: -100px;
+  background-color: #fff;
+  z-index: 999;
+}
 .t1 {
   color: white;
 }
